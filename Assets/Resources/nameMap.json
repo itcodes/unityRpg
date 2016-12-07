@@ -1,0 +1,224 @@
+{
+    "MTaskProtoc": {
+        "id": 5
+    }, 
+    "MDungeonProtoc": {
+        "id": 6
+    }, 
+    "MMailProtoc": {
+        "id": 7
+    }, 
+    "MFriendsProtoc": {
+        "id": 8
+    }, 
+    "MTeamProtoc": {
+        "id": 9
+    }, 
+    "MShopProtoc": {
+        "id": 10
+    }, 
+    "MMallProtoc": {
+        "id": 11
+    }, 
+    "MTopProtoc": {
+        "id": 12
+    }, 
+    "MAuctionProtoc": {
+        "id": 13
+    }, 
+    "MHoroscopeProtoc": {
+        "id": 14
+    }, 
+    "MAchievementProtoc": {
+        "id": 15
+    }, 
+    "MVIPProtoc": {
+        "id": 16
+    }, 
+    "MLotteryProtoc": {
+        "id": 17
+    }, 
+    "MPetProtoc": {
+        "id": 18
+    }, 
+    "MContestProtoc": {
+        "id": 19
+    }, 
+    "MIndustryProtoc": {
+        "id": 20
+    }, 
+    "MGuildProtoc": {
+        "id": 21
+    }, 
+    "MMentalityProtoc": {
+        "id": 22
+    }, 
+    "MActiveProtoc": {
+        "id": 23
+    }, 
+    "MArenaProtoc": {
+        "id": 24
+    }, 
+    "MFightProtoc": {
+        "id": 25
+    }, 
+    "MWelfareProtoc": {
+        "id": 26
+    }, 
+    "MAdminProtoc": {
+        "id": 29
+    }, 
+    "MCombatProtoc": {
+        "id": 31
+    }, 
+    "MCopyProtoc": {
+        "CGCopyInfo": 1, 
+        "GCCopyInfo": 2, 
+        "GCCopyReward": 3, 
+        "id": 28, 
+        "GCPushLevelOpen": 1000
+    }, 
+    "MChatProtoc": {
+        "CGSendChat": 1, 
+        "GCSendChat": 2, 
+        "id": 2, 
+        "CGViewChatGoods": 3, 
+        "GCViewChatGoods": 4, 
+        "CGLoadMChatShowInfo": 5, 
+        "GCLoadMChatShowInfo": 6, 
+        "GCPushChat2Client": 1000, 
+        "GCPushNotice": 1001, 
+        "GCPushSendNotice": 1002
+    }, 
+    "MSkillProtoc": {
+        "CGLoadSkillPanel": 1, 
+        "GCLoadSkillPanel": 2, 
+        "CGSkillLevelUp": 3, 
+        "GCSkillLevelUp": 4, 
+        "id": 4, 
+        "CGSkillLevelDown": 5, 
+        "GCSkillLevelDown": 6, 
+        "CGLoadInjectPropsLevelUpInfo": 7, 
+        "GCLoadInjectPropsLevelUpInfo": 8, 
+        "CGInjectPropsLevelUp": 9, 
+        "GCInjectPropsLevelUp": 10, 
+        "CGResetSkillPoint": 11, 
+        "GCResetSkillPoint": 12, 
+        "GCPushMemberSkillCD": 1000, 
+        "GCPushUnitAddBuffer": 1001, 
+        "GCPushActivateSkill": 1002, 
+        "GCPushSkillPoint": 1003
+    }, 
+    "MPropsProtoc": {
+        "CGLoadPackInfo": 1, 
+        "GCLoadPackInfo": 2, 
+        "id": 3, 
+        "CGUseUserProps": 3, 
+        "GCUseUserProps": 4, 
+        "CGSellUserProps": 5, 
+        "GCSellUserProps": 6, 
+        "CGMergeUserProps": 7, 
+        "GCMergeUserProps": 8, 
+        "CGSplitUserProps": 9, 
+        "GCSplitUserProps": 10, 
+        "CGAutoAdjustPack": 11, 
+        "GCAutoAdjustPack": 12, 
+        "CGLoadShortcutsInfo": 13, 
+        "GCLoadShortcutsInfo": 14, 
+        "CGModifyShortcutsInfo": 15, 
+        "GCModifyShortcutsInfo": 16, 
+        "CGSwapShortcuts": 17, 
+        "GCSwapShortcuts": 18, 
+        "CGUserDressEquip": 19, 
+        "GCUserDressEquip": 20, 
+        "CGListUserEquip": 21, 
+        "GCListUserEquip": 22, 
+        "CGQueryUserEquipInfo": 23, 
+        "GCQueryUserEquipInfo": 24, 
+        "CGPut2Storage": 25, 
+        "GCPut2Storage": 26, 
+        "CGCheckout4Storage": 27, 
+        "GCCheckout4Storage": 28, 
+        "CGDressCloth": 29, 
+        "GCDressCloth": 30, 
+        "CGTakeOffCloth": 31, 
+        "GCTakeOffCloth": 32, 
+        "CGUnbindingGoods": 33, 
+        "GCUnbindingGoods": 34, 
+        "CGLevelUpEquip": 35, 
+        "CGLevelUpGem": 36, 
+        "GCPushGoodsCountChange": 1000, 
+        "GCPushPlayerDressedEquipChange": 1001, 
+        "GCPushPlayerDressInfo": 1002, 
+        "GCPushPackInfo": 1003, 
+        "GCPushShortcutsInfo": 1004, 
+        "GCPushEquipDataUpdate": 1005
+    }, 
+    "MPlayerProtoc": {
+        "id": 1, 
+        "CGHeartBeat": 1, 
+        "CGAutoRegisterAccount": 2, 
+        "GCAutoRegisterAccount": 3, 
+        "CGRegisterAccount": 4, 
+        "GCRegisterAccount": 5, 
+        "CGLoginAccount": 6, 
+        "GCLoginAccount": 7, 
+        "CGCreateCharacter": 8, 
+        "GCCreateCharacter": 9, 
+        "CGDelCharacter": 10, 
+        "GCDelCharacter": 11, 
+        "CGSelectCharacter": 12, 
+        "GCSelectCharacter": 13, 
+        "CGGetCharacterInfo": 14, 
+        "GCGetCharacterInfo": 15, 
+        "CGBindingSession": 16, 
+        "GCBindingSession": 17, 
+        "CGModifyPassword": 18, 
+        "GCModifyPassword": 19, 
+        "CGEnterScene": 20, 
+        "GCEnterScene": 21, 
+        "CGPlayerMove": 22, 
+        "GCPlayerMove": 23, 
+        "CGModifyPlayerName": 24, 
+        "GCModifyPlayerName": 25, 
+        "CGListBranchinges": 26, 
+        "GCListBranchinges": 27, 
+        "CGChangeFightMode": 28, 
+        "GCChangeFightMode": 29, 
+        "CGSettingClothShow": 30, 
+        "GCSettingClothShow": 31, 
+        "CGSaveGuideStep": 32, 
+        "GCSaveGuideStep": 33, 
+        "CGPropsRevive": 34, 
+        "GCPropsRevive": 35, 
+        "CGChangeScreen4Point": 36, 
+        "GCChangeScreen4Point": 37, 
+        "CGPickUpLootReward": 38, 
+        "GCPickUpLootReward": 39, 
+        "CGForgotPassword": 40, 
+        "GCForgotPassword": 41, 
+        "CGPickItem": 42, 
+        "CGAddProp": 43, 
+        "CGSetProp": 44, 
+        "CGGetKeyValue": 45, 
+        "GCGetKeyValue": 46, 
+        "CGSetKeyValue": 47, 
+        "CGPlayerCmd": 48, 
+        "GCPlayerCmd": 49, 
+        "GCPushNotice2Kick": 1000, 
+        "GCPushAttribute2Members": 1001, 
+        "GCPushLevelUpgrade": 1002, 
+        "GCPushAttrChange": 1003, 
+        "GCPushExpChange": 1004, 
+        "GCPushPlayerModifyName": 1007, 
+        "GCPushPlayerDressAttributeChanges": 1008, 
+        "GCPushPlayerPower": 1009, 
+        "GCPushLootReward": 1010, 
+        "GCPushLootRewardRemove": 1011, 
+        "GCPushFightModeChangeWithMap": 1012, 
+        "GCPushPlayerResurrect": 1013, 
+        "GCPushPlayerToilState": 1014, 
+        "GCPushNotify": 1015, 
+        "GCPushLevel": 1016
+    }
+}
